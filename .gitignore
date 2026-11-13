@@ -1,0 +1,37 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# Node / React / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
+application-*.local.properties
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+src/main/resources/application.properties
