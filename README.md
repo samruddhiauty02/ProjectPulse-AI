@@ -104,3 +104,17 @@ The objective of ProjectPulse AI is to demonstrate how full-stack development, d
 ---
 
 **Developed as a full-stack AI-powered enterprise project.**
+
+## 📸 Application Screenshots
+
+### 1. ProjectPulse AI Dashboard
+
+![ProjectPulse AI Dashboard](screenshots/dashboard.png)
+
+### 2. Budget Analytics
+
+![ProjectPulse AI Budget Analytics](screenshots/analytics.png)
+
+### 3. AI Assistant
+
+![ProjectPulse AI Assistant](screenshots/ai-assistant.png)
