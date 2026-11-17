@@ -1877,3 +1877,489 @@ textarea:focus {
   border-color: var(--primary);
   outline-color: var(--primary-light);
 }
+
+/* =========================================
+   PROJECTPULSE AI - FUTURISTIC BLUE BACKGROUND
+   BACKGROUND AND VISUAL STYLING ONLY
+========================================= */
+
+/* Main website background */
+body {
+  background:
+    linear-gradient(
+      rgba(5, 15, 38, 0.38),
+      rgba(5, 15, 38, 0.38)
+    ),
+    url("/images/blue-bg.jpg") center center / cover fixed no-repeat !important;
+
+  background-color: #07152f !important;
+  color: #17243b;
+  min-height: 100vh;
+}
+
+/* Keep the application background transparent */
+#root,
+.app,
+.main-content {
+  background: transparent !important;
+}
+
+/* Main dashboard content */
+.main-content {
+  min-height: 100vh;
+}
+
+/* Premium glass-style dashboard panels */
+.content-card,
+.stat-card,
+.financial-kpi-card,
+.chart-card {
+  background: rgba(255, 255, 255, 0.93) !important;
+  border: 1px solid rgba(255, 255, 255, 0.55) !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 12, 35, 0.16) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Dashboard headings */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #142744;
+}
+
+/* Dashboard descriptions */
+.main-content p {
+  color: #52647e;
+}
+
+/* Sidebar - deep navy */
+.sidebar {
+  background: linear-gradient(
+    180deg,
+    #07152e 0%,
+    #102b50 100%
+  ) !important;
+
+  border-right: 1px solid rgba(115, 190, 255, 0.16);
+  box-shadow: 5px 0 30px rgba(0, 0, 0, 0.22);
+}
+
+/* Sidebar active navigation */
+.sidebar nav a.active {
+  background: linear-gradient(
+    110deg,
+    #0879d9,
+    #0759a8
+  ) !important;
+
+  color: #ffffff !important;
+  box-shadow: 0 5px 18px rgba(0, 120, 220, 0.32);
+}
+
+/* Sidebar hover */
+.sidebar nav a:hover,
+.sidebar-bottom a:hover {
+  background: rgba(76, 169, 255, 0.15) !important;
+  color: #ffffff !important;
+}
+
+/* Logo accent */
+.sidebar .logo span {
+  color: #65c8ff !important;
+}
+
+/* Primary buttons */
+.main-content button,
+.main-content .btn-primary {
+  transition: all 0.25s ease;
+}
+
+/* Blue button appearance */
+.main-content button {
+  border-radius: 8px;
+}
+
+/* Input fields */
+.main-content input,
+.main-content select,
+.main-content textarea {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #d6e1ef;
+  border-radius: 8px;
+  color: #17243b;
+}
+
+/* Input focus */
+.main-content input:focus,
+.main-content select:focus,
+.main-content textarea:focus {
+  border-color: #168de0;
+  box-shadow: 0 0 0 3px rgba(22, 141, 224, 0.12);
+  outline: none;
+}
+
+/* Chart and analytics panels */
+.chart-card {
+  background: rgba(255, 255, 255, 0.94) !important;
+}
+
+/* Modal visibility */
+.project-modal {
+  background: #ffffff;
+  box-shadow: 0 20px 60px rgba(0, 10, 30, 0.3);
+}
+
+/* Responsive background behaviour */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll !important;
+    background-position: center center;
+  }
+}
+
+/* =====================================================
+   PROJECTPULSE AI - FINAL FUTURISTIC BLUE THEME
+   HIGH CONTRAST + PREMIUM DASHBOARD FINISH
+===================================================== */
+
+/* 1. MAIN PAGE HEADINGS - WHITE */
+.main-content .topbar h2,
+.main-content .welcome h1,
+.main-content .financial-kpi-heading h2,
+.main-content .dashboard-charts-section > h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* 2. MAIN PAGE DESCRIPTIONS - ICE BLUE */
+.main-content .topbar p,
+.main-content .welcome p,
+.main-content .financial-kpi-heading p {
+  color: #c5e5ff !important;
+}
+
+/* General text outside cards */
+.main-content > p,
+.main-content > h2,
+.main-content > h3 {
+  color: #f0f7ff;
+}
+
+/* 3. TOP BAR DIVIDER */
+.main-content .topbar {
+  border-bottom: 1px solid rgba(150, 215, 255, 0.35);
+}
+
+/* 4. KPI CARDS - PURE WHITE SURFACE */
+.main-content .stat-card,
+.main-content .financial-kpi-card,
+.main-content .chart-card,
+.main-content .content-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(190, 220, 255, 0.85) !important;
+  border-radius: 17px !important;
+  box-shadow:
+    0 10px 30px rgba(0, 10, 35, 0.24),
+    0 0 0 1px rgba(255, 255, 255, 0.12) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Card hover effect */
+.main-content .stat-card:hover,
+.main-content .financial-kpi-card:hover,
+.main-content .chart-card:hover,
+.main-content .content-card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 16px 38px rgba(0, 15, 45, 0.30),
+    0 0 16px rgba(64, 180, 255, 0.16) !important;
+}
+
+/* 5. KPI CARD ACCENT STRIPS */
+.main-content .stat-card::before {
+  opacity: 1 !important;
+  height: 5px !important;
+  background: linear-gradient(90deg, #0879dc, #39c5ff) !important;
+}
+
+.main-content .stat-card:nth-child(2)::before {
+  background: linear-gradient(90deg, #009f9a, #48e0cf) !important;
+}
+
+.main-content .stat-card:nth-child(3)::before {
+  background: linear-gradient(90deg, #7554e8, #b39bff) !important;
+}
+
+.main-content .stat-card:nth-child(4)::before {
+  background: linear-gradient(90deg, #1476ed, #68c8ff) !important;
+}
+
+/* 6. KPI TEXT - DEEP NAVY */
+.main-content .stat-card p,
+.main-content .financial-kpi-label {
+  color: #536987 !important;
+  font-weight: 700 !important;
+}
+
+.main-content .stat-card h2,
+.main-content .financial-kpi-value {
+  color: #102849 !important;
+  font-weight: 850 !important;
+}
+
+.main-content .stat-card span,
+.main-content .financial-kpi-description {
+  color: #7186a3 !important;
+}
+
+/* 7. FINANCIAL KPI ACCENT COLOURS */
+.main-content .kpi-blue .financial-kpi-icon {
+  background: #e5f2ff !important;
+  color: #0879dc !important;
+}
+
+.main-content .kpi-orange .financial-kpi-icon {
+  background: #fff1e4 !important;
+  color: #e47a19 !important;
+}
+
+.main-content .kpi-purple .financial-kpi-icon {
+  background: #f0eaff !important;
+  color: #7952d8 !important;
+}
+
+.main-content .kpi-green .financial-kpi-icon {
+  background: #e1faf1 !important;
+  color: #07976b !important;
+}
+
+/* 8. SECTION HEADINGS INSIDE WHITE CARDS */
+.main-content .section-heading h2,
+.main-content .content-card h2,
+.main-content .content-card h3,
+.main-content .chart-card-heading h3,
+.main-content .financial-kpi-heading h2 {
+  color: #102849 !important;
+}
+
+.main-content .section-heading p,
+.main-content .content-card p,
+.main-content .chart-card-heading p {
+  color: #637894 !important;
+}
+
+/* 9. TABLE DESIGN */
+.main-content table th {
+  background: #eaf4ff !important;
+  color: #174b7b !important;
+  border-bottom: 1px solid #cfe3f8 !important;
+}
+
+.main-content table td {
+  color: #405775 !important;
+  border-bottom: 1px solid #e8eff7 !important;
+}
+
+.main-content table td:first-child {
+  color: #102849 !important;
+}
+
+.main-content table tbody tr:hover {
+  background: #f0f7ff !important;
+}
+
+/* 10. PRIMARY BUTTONS - BLUE GRADIENT */
+.main-content .primary-btn,
+.main-content button.primary-btn {
+  background: linear-gradient(110deg, #0879dc, #1760cf) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(110, 200, 255, 0.35) !important;
+  box-shadow: 0 6px 18px rgba(0, 105, 210, 0.30) !important;
+}
+
+.main-content .primary-btn:hover,
+.main-content button.primary-btn:hover {
+  background: linear-gradient(110deg, #0867bc, #104da9) !important;
+  box-shadow: 0 9px 24px rgba(0, 125, 235, 0.40) !important;
+  transform: translateY(-2px);
+}
+
+/* 11. SECONDARY BUTTONS */
+.main-content .secondary-btn {
+  background: #edf6ff !important;
+  border: 1px solid #c9e3ff !important;
+  color: #1261a7 !important;
+}
+
+.main-content .secondary-btn:hover {
+  background: #dceeff !important;
+  color: #084b8b !important;
+}
+
+/* 12. INPUTS AND SEARCH FIELDS */
+.main-content input,
+.main-content select,
+.main-content textarea {
+  background: #ffffff !important;
+  color: #17314f !important;
+  border: 1px solid #c9dced !important;
+}
+
+.main-content input::placeholder,
+.main-content textarea::placeholder {
+  color: #91a4ba !important;
+}
+
+.main-content input:focus,
+.main-content select:focus,
+.main-content textarea:focus {
+  border-color: #168de0 !important;
+  box-shadow: 0 0 0 3px rgba(22, 141, 224, 0.15) !important;
+}
+
+/* 13. CHART PANELS */
+.main-content .chart-card {
+  background: #ffffff !important;
+}
+
+.main-content .chart-card-heading h3 {
+  color: #102849 !important;
+}
+
+.main-content .chart-legend-label,
+.main-content .chart-bar-heading strong {
+  color: #526984 !important;
+}
+
+.main-content .chart-legend-item strong,
+.main-content .chart-total-row strong {
+  color: #102849 !important;
+}
+
+/* 14. BUDGET PROGRESS BARS */
+.main-content .chart-bar-fill,
+.main-content .project-budget-spent,
+.main-content .spending-fill {
+  background: linear-gradient(90deg, #0879dc, #32c5ee) !important;
+}
+
+/* 15. MODALS */
+.modal-overlay .project-modal {
+  background: #ffffff !important;
+  color: #17314f !important;
+  border: 1px solid #d9eaff;
+  box-shadow: 0 25px 70px rgba(0, 10, 35, 0.40);
+}
+
+.modal-overlay .project-modal h2,
+.modal-overlay .project-modal label {
+  color: #17314f !important;
+}
+
+/* 16. SIDEBAR - KEEP DEEP NAVY */
+.sidebar {
+  background: linear-gradient(
+    180deg,
+    #06142d 0%,
+    #102c50 100%
+  ) !important;
+}
+
+.sidebar .logo span {
+  color: #54c9ff !important;
+}
+
+/* 17. PROFILE ACCENT */
+.profile {
+  background: linear-gradient(135deg, #dff4ff, #a8d9ff) !important;
+  color: #0757a7 !important;
+  border: 2px solid #ffffff !important;
+}
+
+/* 18. MOBILE READABILITY */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll !important;
+  }
+
+  .main-content .stat-card,
+  .main-content .financial-kpi-card,
+  .main-content .content-card,
+  .main-content .chart-card {
+    background: #ffffff !important;
+  }
+}
+
+/* FIX: ACTIVE PAGE TITLES */
+.main-content > .topbar h2,
+.main-content > .topbar > div > h2 {
+  color: #ffffff !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.3px !important;
+  text-shadow:
+    0 0 8px rgba(52, 190, 255, 0.65),
+    0 2px 12px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* Make the subtitle visible too */
+.main-content > .topbar p {
+  color: #c5e5ff !important;
+  font-weight: 500 !important;
+}
+
+/* =========================================
+   FORCE VISIBILITY OF PAGE-LEVEL HEADINGS
+========================================= */
+
+/* Project Management heading */
+.projects-page .projects-heading h1 {
+  color: #ffffff !important;
+  font-size: 30px !important;
+  font-weight: 850 !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Budget Analytics headings */
+.budget-analytics-page h1,
+.budget-analytics-page h2,
+.budget-analytics-page .section-heading h2 {
+  color: #ffffff !important;
+  font-weight: 850 !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65) !important;
+}
+
+/* AI Assistant headings */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-weight: 800;
+}
+
+/* AI page and other page-level titles */
+.main-content > section > h1,
+.main-content > section > h2,
+.main-content > section > div > h1,
+.main-content > section > div > h2,
+.main-content .ai-assistant-page h1,
+.main-content .ai-assistant-page h2,
+.main-content .ai-assistant-page h3,
+.main-content .ai-assistant h1,
+.main-content .ai-assistant h2,
+.main-content .ai-assistant h3 {
+  color: #ffffff !important;
+  font-weight: 850 !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Bright subtitles on dark page backgrounds */
+.projects-page .projects-heading p,
+.budget-analytics-page .section-heading p,
+.main-content .ai-assistant-page p {
+  color: #d7edff !important;
+}
